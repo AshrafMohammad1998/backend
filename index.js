@@ -7,6 +7,10 @@ app.get("/", (req, res) => {
     res.send("Hello World")
 })
 
+app.get("/login", (req, res) => {
+    res.send("USer Login")
+})
+
 app.listen(process.env.PORT, () => {
     console.log(`port is running at ${port}`)
 })
